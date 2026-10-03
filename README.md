@@ -142,12 +142,13 @@ market-tape table:
 11. Peak Absolute Move KPI
 12. Live Market Tape
 
-## Viva demo
+## Screenshots
 
-Start consumer, then producer. Keep Grafana open on `Last 30 minutes` with the
-5-second refresh enabled. The live tape and time-series panels should begin moving
-as each 5-second ticker batch is consumed.
+<img width="1920" height="906" alt="Screenshot (1166)" src="https://github.com/user-attachments/assets/874f33b1-61dc-46ed-ab6f-6ce114554da0" />
 
-To prove Kafka is involved, show the producer terminal and consumer terminal side by
-side. The producer prints Kafka partition/offset values; the consumer prints the same
-message flow as it inserts records into MySQL.
+<img width="1920" height="913" alt="Screenshot (1167)" src="https://github.com/user-attachments/assets/571175f2-7320-4a8f-8963-c0d8c451337d" />
+
+<img width="1920" height="911" alt="Screenshot (1168)" src="https://github.com/user-attachments/assets/54b89cb6-62a8-4135-9c16-5dbabb17f4ba" />
+
+
+
